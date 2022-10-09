@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/iconsfonts.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content container">
+				<a href="#" class="header__logo logo">
+					<img src="../img/header-footer/logo.png" alt="logo">
+					<span>Pray4UA</span>
+				</a>
+				<div class="header__icon">
+					<span></span>
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li>
+							<a href="#" class="menu__link">Офіційні збори</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link menu__link_active">Локальні збори</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Допомога</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Статті</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="dues-local__banner banner">
+				<div class="banner__headline headline">
+					<h1>Локальні збори</h1>
+				</div>
+			</div>
+			<div class="dues-content">
+				<div class="dues-content__content container">
+					<form action="#" class="dues-content__settings settings">
+						<div class="settings__setting-item">
+							<span>Статус збору</span>
+							<div class="settings__select-wrapper">
+								<div class="settings__select select" id="select-5">
+									<button type="button" class="select__toggle" data-select="toggle">Статус збору
+									</button>
+									<div class="select__dropdown">
+										<ul class="select__options">
+											<li class="select__option" data-select="option" data-value="" data-index="1">
+												Відкритий
+											</li>
+											<li class="select__option" data-select="option" data-value="" data-index="2">
+												Сума зібрана
+											</li>
+											<li class="select__option" data-select="option" data-value="" data-index="3">
+												Збір завершено
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="settings__setting-item">
+							<span>Сума збору</span>
+							<div class="settings__input-wrapper">
+								<input type="number" class="settings__input input" placeholder="Сума збору">
+							</div>
+						</div>
+						<div class="settings__setting-item">
+							<span>Цілі збору</span>
+							<div class="settings__select-wrapper">
+								<div class="settings__select select" id="select-6">
+									<button type="button" class="select__toggle" data-select="toggle">Всі
+									</button>
+									<div class="select__dropdown">
+										<ul class="select__options">
+											<li class="select__option select__option_selected" data-select="option" data-value=""
+												data-index="1">
+												Всі
+											</li>
+											<li class="select__option" data-select="option" data-value="" data-index="2">
+												Здоров'я
+											</li>
+											<li class="select__option" data-select="option" data-value="" data-index="3">
+												Социальная помощь
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="dues-content__items items-points">
+						<div class="items-points__header">
+							<div class="items-points__show">
+								Показані збори:
+								<div class="items-points__show-output">
+									<span class="items-points__from">16</span>
+									из
+									<span class="items-points__to">250</span>
+								</div>
+							</div>
+							<div class="items-points__filter">
+								<a href="#"><span>Очистити фільтри</span></a>
+							</div>
+						</div>
+						<div class="items-points__content">
+							<div class="items-points__row">
+								<div class="items-points__column">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/main-page/dues/item1.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">МБФ "Центр соціальних
+													проектів майбутнього"</a>
+												<div class="due__text">В соответствии со статутными программами фонд реализует
+													помощь
+													для
+													детей с онкологией...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/main-page/dues/item2.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Соціальна допомога</span>
+												<span class="due__date">20 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">ХОБФ "Карітас"</a>
+												<div class="due__text">Хмельницкий областной благотворительный фонд "Каритас" - это
+													объединение неравнодушных ...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_992">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/main-page/dues/item3.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">15 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БО "БФ "КИЯН"</a>
+												<div class="due__text">Цель деятельности фонда – материальная поддержка программ,
+													направленных на профилактику...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_1200">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/main-page/dues/item4.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 мая 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БО "Благовіщення"</a>
+												<div class="due__text">Благотворительная организация “Благовещение” существует с
+													2011 г. Наши подопечные - тяжело больные...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-points__row">
+								<div class="items-points__column">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item5.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Відкриті долоні"</a>
+												<div class="due__text">Фонд надає: адресну допомогу дітям та дорослим з кисневою
+													недостатністю (діє окрема програма для пацієнтів з...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item6.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Запорука"</a>
+												<div class="due__text">Благодійний фонд "Запорука" підтримує родини онкохворих дітей
+													і створює умови...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_992">
+									<div class="items-points__due   due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item7.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Щаслива дитина"</a>
+												<div class="due__text">Місія фонду – ефективна допомога найбільш уразливим
+													категоріям дітей Запорізької області. Фонд з'єднує...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_1200">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item8.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Пакс ет Бонум"</a>
+												<div class="due__text">Головною ціллю діяльності Фонду є: покращення
+													соціально-економічного становища в Україні, сприяння...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-points__row">
+								<div class="items-points__column">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item9.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Асперн"</a>
+												<div class="due__text">Наша Благодійна організація "Фонд "Асперн" є неприбутковою. З
+													2000 року ми цілодобово надаємо комплекс...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item10.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">"БЛАГОДІЙНИЙ ФОНД
+													"СВІЧАДО"</a>
+												<div class="due__text">"СВІЧАДО" - благодійний фонд, який забезпечує
+													матеріально-технічну допомогу...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_992">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item11.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БО "Український Благодійний
+													Альянс"</a>
+												<div class="due__text">Український Благодійний Альянс – це неприбуткова благодійна
+													організація, заснована...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_1200">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item12.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">ГО "ФОНД МАША"</a>
+												<div class="due__text">Фонд МАША створений для промоції громадської протидії
+													будь-якому виду насильства та допомоги жінкам, які від...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-points__row">
+								<div class="items-points__column">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item13.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">МБФ "Центр соціальних
+													проектів майбутнього"</a>
+												<div class="due__text">В соответствии со статутными программами фонд реализует
+													помощь для детей с онкологией...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item14.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Сподіваюсь і вірю"</a>
+												<div class="due__text">Благодійний фонд "Сподіваюся і вірю" заснований фізичними
+													особами і зареєстрований 13 жовтня 2005 року...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_992">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item15.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">БФ "Помагаєм"</a>
+												<div class="due__text">БФ "Помагаєм" з 2009 року надає підтримку важкохворим
+													дітям...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items-points__column items-points__column_1200">
+									<div class="items-points__due  due">
+										<a href="#" class="due__image">
+											<img src="../img/dues-page/items-points/item16.jpg" alt="due">
+										</a>
+										<div class="due__body">
+											<div class="due__header">
+												<span class="due__category">Здоров'я</span>
+												<span class="due__date">24 авг 2022</span>
+											</div>
+											<div class="due__middle">
+												<a href="#" class="due__headline">ВБФ "Крона"</a>
+												<div class="due__text">Всеукраїнський благодійний фонд "Крона" з 2006 року працює
+													задля здоров’я і добробуту...</div>
+											</div>
+											<div class="due__footer">
+												<div class="due__progress">
+													<div class="due__window-progress">56%</div>
+												</div>
+												<div class="due__report">
+													<div class="due__done">
+														<span>Зiбрано</span>
+														<span>28 873.00 грн.</span>
+													</div>
+													<div class="due__left">
+														<span>Залишилось зiбрати</span>
+														<span>21 127.00 грн.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="items-points__btn-wrapper">
+							<a href="#" class="items-points__btn btn">Показати більше</a>
+						</div>
+						<div class="items-points__pagination">
+							<a href="#" class="items-points__arrow _icon-vector-double"></a>
+							<a href="#" class="items-points__arrow items-points__arrow_left _icon-vector-cut"></a>
+							<a href="#" class="items-points__page items-points__page_active">1</a>
+							<a href="#" class="items-points__page">2</a>
+							<a href="#" class="items-points__page">3</a>
+							<a href="#" class="items-points__page">...</a>
+							<a href="#" class="items-points__page">250</a>
+							<a href="#" class="items-points__arrow items-points__arrow_right _icon-vector-cut"></a>
+							<a href="#" class="items-points__arrow _icon-vector-double"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__content container">
+				<div class="footer__top">
+					<a href="#" class="footer__logo logo">
+						<img src="../img/header-footer/logo.png" alt="logo">
+						<span>Pray4UA</span>
+					</a>
+					<nav class="footer__menu menu">
+						<ul class="menu__list">
+							<li>
+								<a href="#" class="menu__link">Офіційні збори</a>
+							</li>
+							<li>
+								<a href="#" class="menu__link">Локальні збори</a>
+							</li>
+							<li>
+								<a href="#" class="menu__link">Допомога</a>
+							</li>
+							<li>
+								<a href="#" class="menu__link">Статті</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__bottom">
+					Pray4UA 2022. All Rights Reserved.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="../js/select.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+
+</html>
